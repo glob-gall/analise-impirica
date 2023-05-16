@@ -1,0 +1,4 @@
+passar a questão das aulas pro chatGPT
+e verificar se passa nos testes da plataforma
+
+comparar com as respostas dos alunos

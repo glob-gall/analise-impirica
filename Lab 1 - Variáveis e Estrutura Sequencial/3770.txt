@@ -1,0 +1,23 @@
+Leia e converta para letras minúsculas
+Escreva um programa que leia o nome de um produto a partir do teclado. Em seguida, imprima a string lida convertendo todas as letras para minúsculas.
+
+ 
+
+Dicas
+A entrada já é uma string. Portanto, não é necessário usar nem int, nem float, que convertem strings em números.
+Use o método .lower() após o final do nome da string para converter todas as suas letras em minúsculas.
+Exemplo: se texto = "SABONETE", então print(texto.lower()) exibe sabonete.
+
+Exemplos de Entrada e Saída
+Entrada	
+SABAO_EM_PO
+Saída	
+sabao_em_po
+Entrada	
+PANTeRA_NegRa
+Saída	
+pantera_negra
+Entrada	
+CORACAO
+Saída	
+coracao

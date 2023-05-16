@@ -1,0 +1,38 @@
+Comprando mais jogos na internet
+Agora, Estanislau deseja comprar vários jogos para seu console favorito. Em um mesmo site, o preço do jogo é sempre o mesmo para todos os títulos. O valor do frete é diferente para cada site.
+
+Escreva um programa que leia as seguintes entradas, nesta ordem:
+
+A quantidade de jogos a serem encomendados;
+O valor unitário de cada jogo;
+O valor do frete.
+Como saída, determine o preço total a ser pago por Estanislau pelos jogos que for encomendar do site, incluindo o valor do frete.
+
+Dicas
+Cada entrada corresponde a um comando input(). Cada saída corresponde a um comando print(), com um argumento.
+Siga exatamente a mesma ordem de leitura de entradas especificada no enunciado.
+Use o comando var = input("Instruções: ") para ler um valor digitado via teclado e atribuí-lo à variável var.
+Use o comando float() para converter uma entrada de texto para número real, e o comando int() para converter uma entrada de texto para número inteiro.
+As entradas e saídas de exemplo são apenas uma ilustração. O CodeBench utiliza outros casos de teste para avaliar seu código. Teste seu código com outros valores possíveis.
+Modifique o código da questão anterior.
+Considere que o CodeBench usa valores sempre válidos para corrigir o seu código (valores positivos).
+
+Exemplos de Entrada e Saída
+Entrada	
+5
+100.0
+40.0
+Saída	
+540.0
+Entrada	
+10
+159.90
+43.50
+Saída	
+1642.5
+Entrada	
+3
+50.0
+12.56
+Saída	
+162.56

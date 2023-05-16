@@ -1,0 +1,5 @@
+d1= int(input("escreva um numero "))
+d2=int(input("leia um numero"))
+divisao = (d1//d2)
+rest0=( d1 % d2)
+print( d1, d2, divisao, rest0 )

@@ -1,0 +1,41 @@
+Elementos da divisão inteira
+Escreva um programa que leia dois números inteiros, nesta ordem:
+
+X (dividendo)
+Y (divisor)
+Como saída, imprima os quatro elementos da divisão inteira, nesta ordem:
+
+dividendo
+divisor
+quociente
+resto
+
+Dicas
+O quociente da divisão inteira não tem parte fracionária. A divisão inteira é indicada por duas barras (//).
+O resto da divisão é indicado pelo sinal %. Por exemplo, o resto da divisão de 9 por 4 é indicado por 9 % 4, cujo resultado é 1.
+
+Exemplos de Entrada e Saída
+Entrada	
+346
+2
+Saída	
+346
+2
+173
+0
+Entrada	
+10
+5
+Saída	
+10
+5
+2
+0
+Entrada	
+53
+2
+Saída	
+53
+2
+26
+1

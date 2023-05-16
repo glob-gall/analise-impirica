@@ -1,0 +1,28 @@
+Comprando jogos na internet
+Estanislau deseja comprar 08 jogos para seu console favorito. O preço varia de um site para o outro, mas é sempre igual para todos os títulos. O valor do frete é fixo e custa R$45,00.
+
+Escreva um programa que leia:
+
+o valor (unitário) do jogo em um determinado site.
+Como saída, determine o preço a ser pago por Estanislau pelo total de 8 jogos, acrescido do valor do frete.
+
+Dicas
+Use o comando var = input("Instrucoes: ") para ler um valor digitado via teclado e atribuí-lo à variável var.
+A quantidade de entradas solicitadas em um programa determina a quantidade de comandos input(); e a quantidade de saídas determina a quantidade de comandos print().
+Use o comando float() para converter uma entrada de texto para número real.
+As entradas e saídas de exemplo são apenas uma ilustração. O CodeBench utiliza outros casos de teste para avaliar seu código. Teste seu código com outros valores possíveis.
+No código fornecido, modifique as linhas que contêm o sinal ??, para atender as especificações do enunciado.
+
+Exemplos de Entrada e Saída
+Entrada	
+100.0
+Saída	
+845.0
+Entrada	
+33.0
+Saída	
+309.0
+Entrada	
+20.0
+Saída	
+205.0

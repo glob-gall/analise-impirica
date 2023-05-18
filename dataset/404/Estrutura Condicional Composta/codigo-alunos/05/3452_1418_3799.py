@@ -1,0 +1,9 @@
+a=int(input("mais:"))
+b=int(input("segundo:"))
+c=int(input("menos:"))
+x=a+b+c
+y=x/2
+if(a>y):
+	print("NAO")
+else:
+	print("SIM")

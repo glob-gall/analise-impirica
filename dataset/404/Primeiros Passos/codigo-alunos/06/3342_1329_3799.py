@@ -1,0 +1,1 @@
+print(float(180/4))

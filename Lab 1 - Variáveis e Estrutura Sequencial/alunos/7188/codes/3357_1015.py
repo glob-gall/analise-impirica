@@ -1,6 +1,0 @@
-var=int(input("numero1"))
-varz =int(input("numero2"))
-varb =int(input("numero3"))
-print(min(var,varz,varb))
-print(var+varz+varb-min(var,varz,varb)-max(var,varz,varb))
-print(max(var,varz,varb))

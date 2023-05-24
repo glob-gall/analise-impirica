@@ -1,6 +1,0 @@
-var= int(input("Numero 1"))
-var1= int(input("Numero 2"))
-print(var)
-print(var1)
-print(var//var1)
-print(var%var1)

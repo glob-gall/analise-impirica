@@ -1,7 +1,0 @@
-x= int(input("x?"))
-y= int(input("y?"))
-
-print(x)
-print(y)
-print(x//y)
-print(x%y)

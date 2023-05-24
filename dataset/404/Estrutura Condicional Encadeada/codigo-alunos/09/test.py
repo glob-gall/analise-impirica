@@ -4,9 +4,9 @@ import io
 from math import pi
 
 
-def verificar_string(string1, valores_entrada):
+def verificar_string(string1, valores_entrada,arquivo):
     # Abre o arquivo 'codigo.py' e lê o seu conteúdo
-    with open('3508_3056_2927.py', 'r') as file:
+    with open(arquivo, 'r') as file:
         codigo = file.read()
 
     # Redireciona a saída padrão para um objeto io.StringIO
@@ -37,18 +37,21 @@ def verificar_string(string1, valores_entrada):
 
 
 class TestStringVerification(unittest.TestCase):
+    file = 'codigo.py'
     def test_verificar_string_1(self):
         valores_entrada = ["12000.0"]
-        self.assertTrue(verificar_string("66150.0", valores_entrada))
+        self.assertTrue(verificar_string("66150.0", valores_entrada,self.file))
 
     def test_verificar_string_2(self):
         valores_entrada = ["5500.75"]
-        self.assertTrue(verificar_string("33104.5", valores_entrada))
+        self.assertTrue(verificar_string("33104.5", valores_entrada,self.file))
 
     def test_verificar_string_3(self):
         valores_entrada = ["45000.0"]
-        self.assertTrue(verificar_string("202750.0", valores_entrada))
+        self.assertTrue(verificar_string("202750.0", valores_entrada,self.file))
 
 
 if __name__ == '__main__':
+    if len(sys.argv) > 1:
+        TestStringVerification.file = sys.argv.pop()
     unittest.main()

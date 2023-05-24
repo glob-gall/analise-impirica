@@ -1,5 +1,0 @@
-n1 = int(input("escreva um numero  "))
-n2= int(input("escreva outro numero  "))
-divisao = (n1//n2)
-rest = (n1%n2)
-print(n1, n2, divisao, rest)

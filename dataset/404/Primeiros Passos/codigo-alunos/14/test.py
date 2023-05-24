@@ -3,9 +3,9 @@ import sys
 import io
 
 
-def verificar_string(string, valores_entrada):
+def verificar_string(string, valores_entrada,arquivo):
     # Abre o arquivo 'codigo.py' e lê o seu conteúdo
-    with open('codigo.py', 'r') as file:
+    with open(arquivo, 'r') as file:
         codigo = file.read()
 
     # Redireciona a saída padrão para um objeto io.StringIO
@@ -36,18 +36,21 @@ def verificar_string(string, valores_entrada):
 
 
 class TestStringVerification(unittest.TestCase):
+    file = 'codigo.py'
     def test_verificar_string_1(self):
         valores_entrada = ["Python"]
-        self.assertTrue(verificar_string("Python", valores_entrada))
+        self.assertTrue(verificar_string("Python", valores_entrada,self.file))
 
     def test_verificar_string_2(self):
         valores_entrada = ["Donald"]
-        self.assertTrue(verificar_string("Donald", valores_entrada))
+        self.assertTrue(verificar_string("Donald", valores_entrada,self.file))
 
     def test_verificar_string_3(self):
         valores_entrada = ["Gandalf"]
-        self.assertTrue(verificar_string("Gandalf", valores_entrada))
+        self.assertTrue(verificar_string("Gandalf", valores_entrada,self.file))
 
 
 if __name__ == '__main__':
+    if len(sys.argv) > 1:
+        TestStringVerification.file = sys.argv.pop()
     unittest.main()

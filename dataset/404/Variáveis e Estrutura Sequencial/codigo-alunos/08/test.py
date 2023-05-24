@@ -3,9 +3,9 @@ import sys
 import io
 
 
-def verificar_string(string1, string2, valores_entrada,file):
+def verificar_string(string1, string2, valores_entrada,arquivo):
     # Abre o arquivo 'codigo.py' e lê o seu conteúdo
-    with open(file, 'r') as file:
+    with open(arquivo, 'r') as file:
         codigo = file.read()
 
     # Redireciona a saída padrão para um objeto io.StringIO
@@ -55,7 +55,6 @@ class TestStringVerification(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    
     if len(sys.argv) > 1:
         TestStringVerification.file = sys.argv.pop()
     unittest.main()

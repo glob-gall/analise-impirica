@@ -1,0 +1,63 @@
+2302.00438.pdf
+data: https://github.com/antonio-mastropaolo/robustness-copilot
+
+We collected from an initial set of 1,401 open source projects
+a set of 892 Java methods that are (i) accompanied by a Doc
+Comment for the Javadoc tool, and (ii) exercised by a test
+suite written by the project’s contributors. Then, as done in
+the literature [23], [32], we considered the first sentence of
+the Doc Comments as a “natural language description” of the
+method. We refer to this sentence as the “original” description.
+
+PEGASUS [66], a DL-based paraphrasing tool, and Translation Pivoting (TP), a heuristic-based approach.
+
+Our results show that paraphrasing a description results
+in a change in the code recommendation in ∼46% of cases.
+
+2302.03287.pdf
+
+ChatGPT is able to respond to
+77.5% of the questions we examined and that, of these questions,
+it is able to provide correct or partially correct answers in 55.6%
+of cases, provide correct or partially correct explanations of
+answers in 53.0% of cases, and that prompting the tool in a
+shared question context leads to a marginally higher rate of
+correct answers and explanations. Based on these findings, we
+discuss the potential promises and perils related to the use of
+ChatGPT by students and instructors
+
+A fault is a static defect in the software.
+
+An error is an in-
+correct internal state, which is composed of a program counter
+and the live variables at that program counter location
+
+failure is an external, incorrect behavior with respect to the
+requirements or the description of the expected behavior
+
+we identified nine
+questions that ask for material that is impossible for ChatGPT
+to generate, as it is capable of generating only text-based
+responses. For example, we encountered questions that ask
+for a screen printout of code execution, a project to be fetched
+from the internet, or a continuous integration server to be set
+up. Questions with such tasks cannot be fully and correctly
+answered by ChatGPT’s text-based responses.
+
+We find that in shared contexts,
+49.4% of the time the answer is correct, and 6.2% of the time it
+is partially correct. In contrast, in separate contexts, responses
+are correct 34.6% of the time and partially correct 7.4% of
+the time. As shown in Figure 2, a shared context produces
+fewer incorrect answers than separate contexts, on average.
+
+11.8% of the time ChatGPT produces responses where
+the answer-explanation pairs have different degrees of
+correctness (e.g., the answer is correct, but the explana-
+tion is not).
+
+ChatGPT performed worst with questions
+involving both code and concepts. It outputs correct answers
+and explanations most often with coding questions (83.3%),
+then with conceptual questions (55.6%), and finally with
+combined questions (31.3%).

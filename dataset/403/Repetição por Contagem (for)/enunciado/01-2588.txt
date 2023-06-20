@@ -1,0 +1,8 @@
+Veículos trafegando em alta velocidade
+Objetivo: Contar multas graves em uma determinada avenida.
+
+A Superintendência Municipal de Transportes Urbanos (SMTU) instalou um radar móvel em pontos da cidade para identificar e multar motoristas que ultrapassam o limite de velocidade da via monitorada.
+
+Escreva um programa que leia o vetor com o registro das velocidades medidas pelo radar móvel. O primeiro valor do vetor indica o limite de velocidade da via. Os demais valores são os registros de velocidade dos carros que trafegam na via.
+
+Como saída, determine quais e quantos motoristas infringiram o limite de velocidade em mais de 20% e menos que 50% acima da velocidade máxima permitida para a via.

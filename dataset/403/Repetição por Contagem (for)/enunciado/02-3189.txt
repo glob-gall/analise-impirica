@@ -1,0 +1,25 @@
+
+Contar ocorrências (2): Aprovação em disciplina
+Na Universidade Federal do Amazonas (UFAM), um aluno é aprovado em uma disciplina se atender a dois critérios:
+
+Média final igual ou superior a 5,0.
+Frequência igual ou superior a 75% da carga horária.
+Se a frequência for menor que 75%, o aluno é reprovado por frequência, independentemente da sua nota.
+
+O aluno é reprovado por nota se, tendo comparecido ao número mínimo de aulas, não atingiu a média exigida.
+
+Escreva um programa que leia as seguintes informações de uma disciplina, nesta ordem:
+
+Um vetor contendo médias finais de cada aluno;
+Um vetor contendo a presença (número de horas) dos alunos em uma disciplina;
+A carga horária da disciplina.
+Como saída, imprima um vetor de três posições, nesta ordem:
+
+Número de alunos aprovados;
+Número de alunos reprovados por nota;
+Número de alunos reprovados por frequência.
+Considere que as entradas fornecidas são sempre válidas:
+
+As notas variam entre 0,0 e 10,0;
+A frequência entre 0 e a carga horária;
+Os vetores de notas e de frequência têm tamanhos iguais.

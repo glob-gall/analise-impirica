@@ -1,0 +1,25 @@
+from numpy import*
+a=array(eval(input()))
+q=array(eval(input()))
+i=0
+k=0
+while(i!=size(a)):
+	if(a[i]=="ARROZ"):
+		k=k+(1.25*q[i])
+		i=i+1
+	elif(a[i]=="FEIJAO"):
+		k=k+(2.60*q[i])
+		i=i+1
+	elif(a[i]=="BIS"):
+		k=k+(1.80*q[i])
+		i=i+1
+	elif(a[i]=="MIOJO"):
+		k=k+(0.85*q[i])
+		i=i+1
+	elif(a[i]=="FANTA"):
+		k=k+(3.20*q[i])
+		i=i+1
+	else:
+		k=k
+		i=i+1
+print(round(k,2))

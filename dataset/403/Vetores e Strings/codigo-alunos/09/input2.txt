@@ -1,0 +1,2 @@
+"ARROZ","FANTA","MIOJO"
+1,2,3

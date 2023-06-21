@@ -1,7 +1,7 @@
 from numpy import*
-mf= array(eval(input("medias finais:")))
-pres= array(eval(input("presenca:")))
-ch= int(input("carga horaria:"))
+mf= array(eval(input()))
+pres= array(eval(input()))
+ch= int(input())
 
 cont= zeros(3, dtype=int)
 for h in range(0,size(mf)):

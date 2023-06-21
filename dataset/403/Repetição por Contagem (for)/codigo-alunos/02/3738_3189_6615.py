@@ -1,7 +1,7 @@
 from numpy import * 
-M = array(eval(input("medias finais: ")))
-h = array(eval(input("numero de horas: ")))
-Ch = int(input("carga horaria: "))
+M = array(eval(input()))
+h = array(eval(input()))
+Ch = int(input())
 
 ap = 0
 rp = 0

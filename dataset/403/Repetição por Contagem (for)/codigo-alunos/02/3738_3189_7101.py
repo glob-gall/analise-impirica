@@ -1,7 +1,7 @@
 from numpy import*
-v1 = array(eval(input("Media Final: ")))
-v2 = array(eval(input("Numero de Horas: ")))
-x = int(input("Carga horaria da disciplina: "))
+v1 = array(eval(input()))
+v2 = array(eval(input()))
+x = int(input())
 y = zeros(3, dtype=int)
 for i in range(0,size(v1)):
 	if (v2[i]>=0.75*x and v1[i]>=5):

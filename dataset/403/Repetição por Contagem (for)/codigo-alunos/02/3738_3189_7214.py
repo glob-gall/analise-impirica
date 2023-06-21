@@ -1,7 +1,7 @@
 from numpy import*
-n = array(eval(input("Notas: ")))
-f = array(eval(input("Frequencia: ")))
-c = int(input("Cargo: "))
+n = array(eval(input()))
+f = array(eval(input()))
+c = int(input())
 
 vcont = zeros(3, dtype=int)
 for i in range (0, size(n)):

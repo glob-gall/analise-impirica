@@ -1,5 +1,5 @@
 from numpy import*
-me= array(eval(input("media")))
+me= array(eval(input()))
 p= array(eval(input()))
 ch= array(eval(input()))
 

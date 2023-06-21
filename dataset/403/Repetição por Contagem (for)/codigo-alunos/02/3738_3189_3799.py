@@ -1,8 +1,8 @@
 from numpy import *
 
-nvet=array(eval(input("medias finais:  ")))
-fvet=array(eval(input("presencas:  ")))
-c=float(input("carga horaria:  "))
+nvet=array(eval(input()))
+fvet=array(eval(input()))
+c=float(input())
 aux=zeros(3, dtype=int)
 ap=0
 rpn=0

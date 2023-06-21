@@ -1,8 +1,8 @@
 from numpy import *
 
-v = array(eval(input(":")))
-f = array(eval(input(":")))
-c = int(input(":"))
+v = array(eval(input()))
+f = array(eval(input()))
+c = int(input())
 v1 = zeros(3,dtype=int)
 
 a = c*75/100

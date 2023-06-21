@@ -1,7 +1,7 @@
 from numpy import*
-notas = array(eval(input("notas")))
-fr =array(eval(input("frequencia")))
-ch = int(input("varga hoaria"))
+notas = array(eval(input()))
+fr =array(eval(input()))
+ch = int(input())
 fa = ch*75/100
 s = zeros(3,dtype=int)
 

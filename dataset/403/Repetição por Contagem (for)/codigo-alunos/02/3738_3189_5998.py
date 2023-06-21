@@ -1,7 +1,7 @@
 from numpy import *
-m = array(eval(input("Vetor de medias: ")))
-f = array(eval(input("Vetor de frequecia: ")))
-h = int(input("Carga Horaria: "))
+m = array(eval(input()))
+f = array(eval(input()))
+h = int(input())
 
 v = zeros(3, dtype=int)
 for i in range(0,size(f)):

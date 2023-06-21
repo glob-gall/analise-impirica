@@ -1,8 +1,8 @@
 from numpy import *
 
-m = array(eval(input("medias: ")))
-p = array(eval(input("presencas: ")))
-c = int(input("carga horaria: "))
+m = array(eval(input()))
+p = array(eval(input()))
+c = int(input())
 
 cont = zeros(3, dtype=int)
 f= c*75/100 

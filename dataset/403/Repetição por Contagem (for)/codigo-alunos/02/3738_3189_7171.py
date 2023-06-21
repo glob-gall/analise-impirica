@@ -1,9 +1,9 @@
 #notas
 from numpy import*
 
-mf=array(eval(input("Digite o vetor de medias:")))
-fq=array(eval(input("Digite o vetor da frequencia:")))
-ch=float(input("Digite a carga horaria:"))
+mf=array(eval(input()))
+fq=array(eval(input()))
+ch=float(input())
 
 vet= zeros(3,dtype=int)
 fqmin= (ch * 0.75)

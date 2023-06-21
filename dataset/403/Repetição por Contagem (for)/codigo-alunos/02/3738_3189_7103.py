@@ -1,7 +1,7 @@
 from numpy import*
-m = array(eval(input("Media final de cada aluno: ")))
-f = array(eval(input("Frequencia em horas: ")))
-ch = array(eval(input("Carga horaria: ")))
+m = array(eval(input()))
+f = array(eval(input()))
+ch = array(eval(input()))
 
 vet=zeros(3,dtype=int)
 for i in range(size(m)):

@@ -1,7 +1,7 @@
 from numpy import *
-a = array(eval(input("Medias: ")))
-b = array(eval(input("frequencia: ")))
-c = int(input("Carga: "))
+a = array(eval(input()))
+b = array(eval(input()))
+c = int(input())
 n = zeros(3, dtype = int)
 
 for i in range (0, size(b)):

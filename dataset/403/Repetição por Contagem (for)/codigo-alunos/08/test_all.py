@@ -9,7 +9,7 @@ def openAllFiles():
 def testAllFiles():
     files = openAllFiles()   
     for f in files:
-        print(F" !======= ======= ======= FILE {f} ======= ======= =======! ")
+        print(F" !█████████████████████████████████████████████ !-!-!-! FILE {f} !-!-!-! █████████████████████████████████████████████! ")
         os.system(f"python3 test.py {f}")
 
 

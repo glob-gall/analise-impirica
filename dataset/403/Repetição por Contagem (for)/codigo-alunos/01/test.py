@@ -38,9 +38,9 @@ def verificar_string(string1, string2, string3, valores_entrada,arquivo):
 
     # Verifica se os valores impressos são iguais às strings fornecidas
     if(saida3 == "zero"):
-    	return string1 == saida1 and string2 == saida2
+        return string1 == saida1 and string2 == saida2
     else:
-    	return string1 == saida1 and string2 == saida2 and string3 == saida3
+        return string1 == saida1 and string2 == saida2 and string3 == saida3
 
 
 class TestStringVerification(unittest.TestCase):
